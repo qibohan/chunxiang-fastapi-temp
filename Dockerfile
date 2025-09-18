@@ -18,6 +18,7 @@ COPY alembic.ini /WORKDIR/
 # 复制应用启动脚本
 COPY start.sh /WORKDIR/
 
+# 配置 
 
 # 配置 Poetry 源并重新生成 lock 文件
 RUN poetry config virtualenvs.create false && \
